@@ -1,0 +1,93 @@
+.background-image-ten {
+  background-image: url(https://wallpaperaccess.com/full/1541169.jpg);
+  height: 100vh;
+  width: 100vw;
+  margin-top: 8rem;
+  margin-left: 0rem;
+  overflow: scroll;
+}
+
+.heading10 {
+  position: relative;
+  height: 4rem;
+  width: 30rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 500;
+  color: black;
+  top: 2rem;
+  backdrop-filter: blur(1px);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 32rem;
+  border-radius: 6px;
+}
+
+.content-cards10 {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  top: 3rem;
+}
+.cards10 {
+  position: relative;
+  height: 25rem;
+  width: 20rem;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  top: 5rem;
+  border-radius: 5%;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+}
+
+.topic-heading10 {
+  font-size: 2rem;
+  font-weight: bold;
+  left: 4rem;
+  margin-top: 1rem;
+  margin-left: 7rem;
+  font-family: "Besley", serif;
+  color: white;
+}
+
+.description10 {
+  position: absolute;
+  top: 5rem;
+  padding-left: 0.6rem;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.link-btn10 {
+  height: 3rem;
+  width: 12rem;
+  position: absolute;
+  margin-top: 16rem;
+  margin-left: 4rem;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  border-radius: 2%;
+}
+
+.link-btn10:hover,
+.link-btn10 a:hover {
+  background-color: black;
+  color: white;
+  fill: white;
+}

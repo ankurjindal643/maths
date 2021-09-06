@@ -1,0 +1,96 @@
+.background-image-twelve {
+  background-image: url("https://wallpaperbat.com/img/252996-free-download-mathematics-wallpaper-2560x1600-for-your-desktop.jpg");
+  height: 100vh;
+  width: 100vw;
+  margin-top: 8rem;
+  margin-left: 0rem;
+  overflow: scroll;
+}
+
+.twelce-cards12 {
+  display: flex;
+}
+
+.heading12 {
+  position: relative;
+  height: 4rem;
+  width: 30rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 500;
+  color: black;
+  top: 2rem;
+  background: rgba(99, 97, 97, 0.4);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 32rem;
+  border-radius: 6px;
+}
+
+.content-cards12 {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  top: 3rem;
+}
+.cards12 {
+  position: relative;
+  height: 25rem;
+  width: 20rem;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  top: 5rem;
+  border-radius: 5%;
+  background: rgba(99, 97, 97, 0.4);
+  backdrop-filter: blur(5px);
+}
+
+.topic-heading12 {
+  font-size: 2rem;
+  font-weight: bold;
+  left: 4rem;
+  margin-top: 1rem;
+  margin-left: 7rem;
+  font-family: "Besley", serif;
+  color: white;
+}
+
+.description12 {
+  position: absolute;
+  top: 5rem;
+  padding-left: 0.6rem;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.link-btn12 {
+  height: 3rem;
+  width: 12rem;
+  position: absolute;
+  margin-top: 16rem;
+  margin-left: 4rem;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  border-radius: 2%;
+}
+
+.link-btn12:hover,
+.link-btn12 a:hover {
+  background-color: black;
+  color: white;
+  fill: white;
+}
