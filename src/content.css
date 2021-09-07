@@ -76,5 +76,22 @@ body {
   font-family: "Padauk", sans-serif;
 }
 
+@media screen and (max-width: 950px) {
+  .introduction{
+    margin-left: -14rem;
+  }
+}
 
-
+@media screen and (max-width: 600px) {
+  .introduction{
+    margin-left: -18.5rem;
+  }
+  /* .introduction div .small1{
+    font-size: 22px;
+  } */
+  .quote{
+    height: 32rem;
+    width: 30rem;
+    margin-left: 10px;
+  }
+}

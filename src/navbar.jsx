@@ -26,7 +26,7 @@ let Navbar = () => {
                 HOME
               </Link>
             </a>
-            <a className="home">ABOUT</a>
+            <a className="home" id="idAbout">ABOUT</a>
             <a className="home">
               <Link className="nav-link" id="ten" to="/ten">
                 10th
@@ -43,7 +43,7 @@ let Navbar = () => {
               </Link>
             </a>
           </div>
-          <div className="menu-icon">
+          {/* <div className="menu-icon">
             <span
               onClick={() => {
                 toggleClass();
@@ -52,7 +52,7 @@ let Navbar = () => {
             >
               menu
             </span>
-          </div>
+          </div> */}
         </div>
       </nav>
     </div>
