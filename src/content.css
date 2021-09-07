@@ -5,7 +5,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url("https://images6.alphacoders.com/455/thumb-1920-455565.png") ;
+  background-image: url("https://images6.alphacoders.com/455/thumb-1920-455565.png");
 }
 
 .quote {
@@ -14,7 +14,7 @@ body {
   width: 60%;
   height: 30rem;
   position: relative;
-  left: 18rem;
+  left: 15rem;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(8px);
   border-radius: 5%;
@@ -41,8 +41,6 @@ body {
   font-weight: bold;
   font-family: "Padauk", sans-serif;
 }
-
-
 
 .quote .small3 {
   top: 4rem;
@@ -77,21 +75,65 @@ body {
 }
 
 @media screen and (max-width: 950px) {
-  .introduction{
-    margin-left: -14rem;
+  #mathQuote {
+    margin-left: -200px;
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .introduction{
     margin-left: -18.5rem;
   }
-  /* .introduction div .small1{
-    font-size: 22px;
-  } */
+
   .quote{
     height: 32rem;
     width: 30rem;
     margin-left: 10px;
+  }
+} */
+
+@media screen and (max-width: 850px) {
+  #mathQuote {
+    margin-left: -3rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .quote .small1 {
+    font-size: 20px;
+  }
+  .quote .small2 {
+    font-size: 20px;
+  }
+  .quote .small3 {
+    font-size: 20px;
+  }
+  .quote .small4 {
+    font-size: 20px;
+  }
+  .quote .larger {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #mathQuote {
+    margin-left: -7rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #mathQuote {
+    margin-left: -9rem;
+    height: 22rem;
+    width: 14rem;
+  }
+  .quote .font{
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #active-menu a {
+    margin-left: 3rem;
   }
 }

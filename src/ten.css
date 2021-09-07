@@ -100,8 +100,16 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 400px) {
   #page-ten {
-    margin-left: 0px;
+    font-size: 21px;
+    margin-left: -54px;
+    height: 56px;
+    color: whitesmoke;
+  }
+
+  #active-menu{
+    margin-top: 53px;
+    margin-right: 77px;
   }
 }
