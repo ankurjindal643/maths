@@ -4,7 +4,7 @@ let Twelve = () => {
     <>
       <div className="background-image-twelve">
         <div className="twelve-cards">
-          <div className="heading12">STUDY MATERIAL</div>
+          <div id="page-twelve" className="heading12">STUDY MATERIAL</div>
           <div className="content-cards12">
             <div className="cards12">
               <span className="topic-heading12">Topic</span>

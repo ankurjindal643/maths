@@ -5,7 +5,7 @@ let Ten = () => {
     <>
       <div className="background-image-ten">
         <div className="tenth-cards">
-          <div className="heading10">STUDY MATERIAL</div>
+          <div id="page-ten" className="heading10">STUDY MATERIAL</div>
           <div className="content-cards10">
             <div className="cards10">
               <span className="topic-heading10">Topic</span>

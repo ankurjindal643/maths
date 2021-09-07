@@ -15,6 +15,7 @@ body {
   position: fixed;
   left: 8rem;
   text-decoration: none;
+  line-height: 80px;
 }
 
 #name {
@@ -90,4 +91,47 @@ li {
   color: black;
   cursor: pointer;
   border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 950px) {
+  #active-menu {
+    display: none;
+  }
+
+  #name {
+    font-size: 35px;
+    margin-left: -43px;
+    margin-top: -22px;
+  }
+  #logo {
+    height: 3rem;
+    width: 3rem;
+    margin-top: -22px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .menu-icon {
+    display: none;
+  }
+}
+.menu-icon {
+  height: 3rem;
+  width: 3rem;
+  line-height: 26px;
+}
+
+.menu-icon > span {
+  font-size: 2.4rem;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.active {
+  width: 100vw;
+  height: 100vh;
+  background: #2f3542;
+  margin-left: -52.3rem;
+  margin-top: 5.5rem;
+  color: white;
 }

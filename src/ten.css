@@ -91,3 +91,15 @@
   color: white;
   fill: white;
 }
+
+
+
+
+
+@media screen and (max-width: 950px) {
+  #page-ten{
+    position: unset;
+    margin-top: 2rem;
+    margin-left: 14rem;
+  }
+}

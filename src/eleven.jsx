@@ -5,7 +5,7 @@ let Eleven = () => {
     <>
       <div className="background-image-eleven">
         <div className="eleven-cards">
-          <div className="heading11">STUDY MATERIAL</div>
+          <div className="heading11" id="page-eleven">STUDY MATERIAL</div>
           <div className="content-cards11">
             <div className="cards11">
               <span className="topic-heading11">Topic</span>

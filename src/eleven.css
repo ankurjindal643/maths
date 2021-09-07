@@ -90,3 +90,12 @@
   color: white;
   fill: white;
 }
+
+
+@media screen and (max-width: 950px) {
+  #page-eleven{
+    position: unset;
+    margin-top: 2rem;
+    margin-left: 14rem;
+  }
+}
