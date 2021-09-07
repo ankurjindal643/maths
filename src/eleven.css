@@ -99,3 +99,9 @@
     margin-left: 14rem;
   }
 }
+
+@media screen and (max-width: 950px) {
+  #page-eleven {
+    margin-left: 0px;
+  }
+}
