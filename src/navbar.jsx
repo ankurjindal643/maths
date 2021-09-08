@@ -1,4 +1,3 @@
-
 import "./navbar.css";
 import maths from "./calculator.png";
 import { useHistory } from "react-router-dom";
@@ -23,13 +22,28 @@ let Navbar = () => {
           </span>
           <div className="options" id="active-menu">
             <a className="home">
-              <Link className="nav-link" id="idhome" to="/content">
+              <Link
+                onClick={() => {
+                  window.scroll(0, 0);
+                }}
+                className="nav-link"
+                id="idhome"
+                to="/content"
+              >
                 HOME
               </Link>
             </a>
-            <a className="home" id="idAbout">ABOUT</a>
+            <a
+              onClick={() => {
+                window.scroll(0, 550);
+              }}
+              className="home"
+              id="idAbout"
+            >
+              ABOUT
+            </a>
             <a className="home">
-              <Link className="nav-link" id="ten" to="/ten">
+              <Link className="nav-link" id="ten" to="ten">
                 10th
               </Link>
             </a>

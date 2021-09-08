@@ -11,13 +11,13 @@ let App = () => {
         <Navbar />
 
         <Switch>
-          <Route path="/ten">
+          <Route exact path="/ten">
             <Ten />
           </Route>
-          <Route path="/eleven">
+          <Route exact path="/eleven">
             <Eleven />
           </Route>
-          <Route path="/twelve">
+          <Route exact path="/twelve">
             <Twelve />
           </Route>
           <Route path="/">

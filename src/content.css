@@ -10,14 +10,14 @@ body {
 
 .quote {
   margin-top: 10rem;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 60%;
   height: 30rem;
   position: relative;
   left: 15rem;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(8px);
-  border-radius: 5%;
+  border-radius: 10%;
 }
 
 .quote .small1 {
@@ -74,23 +74,65 @@ body {
   font-family: "Padauk", sans-serif;
 }
 
+.introduction {
+  overflow: auto;
+}
+
+.about {
+  height: 35rem;
+  width: 100vw;
+  /* background-color: white; */
+  justify-content: center;
+  position: absolute;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.intro-div h1 {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem;
+  margin-top: 0.6rem;
+}
+.intro-div {
+  height: 100%;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  overflow: auto;
+}
+
+.intro-div p {
+  padding: 1rem;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+  margin-right: 1rem;
+}
+
+.img-div {
+  height: 100%;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  display: flex;
+}
+
+.img-div img {
+  height: 80%;
+  width: 60%;
+  background: black;
+  transform: translate(30%, 50px);
+  border: 1px white;
+  border-radius: 5%;
+}
+
 @media screen and (max-width: 950px) {
   #mathQuote {
     margin-left: -200px;
   }
 }
-
-/* @media screen and (max-width: 600px) {
-  .introduction{
-    margin-left: -18.5rem;
-  }
-
-  .quote{
-    height: 32rem;
-    width: 30rem;
-    margin-left: 10px;
-  }
-} */
 
 @media screen and (max-width: 850px) {
   #mathQuote {
@@ -127,13 +169,12 @@ body {
     height: 22rem;
     width: 14rem;
   }
-  .quote .font{
+  .quote .font {
     font-size: medium;
   }
 }
 
 @media screen and (max-width: 400px) {
-
   #active-menu a {
     margin-left: 1px;
   }
