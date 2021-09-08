@@ -1,3 +1,4 @@
+
 import "./navbar.css";
 import maths from "./calculator.png";
 import { useHistory } from "react-router-dom";

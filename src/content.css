@@ -133,7 +133,8 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+
   #active-menu a {
-    margin-left: 3rem;
+    margin-left: 1px;
   }
 }
